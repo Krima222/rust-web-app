@@ -1,0 +1,32 @@
+.start-button {
+    margin: auto;
+    padding: 20px 40px 20px 40px;
+    background-color: #FFB36D;
+    border: 0;
+    font-size: 30px;
+    border-radius: 20px;
+    display: block;
+    margin: 50% auto 0 auto;
+}
+
+.previous-process {
+    border: 0;
+    font-size: 30px;
+    padding: 15px 40px 15px 40px;
+    background-color: #D0DCF8;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 5px;
+        transform: scale(.7);
+    }
+    span {
+        height: 100%;
+        text-align: center;
+    }
+}
+
