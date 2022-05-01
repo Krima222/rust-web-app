@@ -1,0 +1,77 @@
+.start-setup {
+    margin: 150px auto 0 auto;
+    position: relative;
+    width: auto;
+    hr {
+        border: 0;
+        height: 2px;
+        background-color: #FF993A;
+        margin-bottom: 0;
+    }
+    &__name {
+        border: 0;
+        font-size: 16px;
+        outline: 0;
+        background: none;
+    }
+    &__input {
+        border: 0;
+        font-size: 16px;
+        background-color: #D0DCF8;
+        width: 100%;
+        box-sizing: border-box;
+        outline: 0;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    &__position {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__settings {
+        display: block;
+        width: 45%;
+        position: relative;
+        // &::before {
+        //     content: '';
+        //     z-index: 1;
+        //     position: absolute;
+        //     top: 0;
+        //     right: 0;
+        //     height: 100px;
+        //     width: 100px;
+        //     background: url('../img/bottom.svg');
+        // }
+    }
+    &__notes {
+        height: 100px;
+        width: 100%; 
+        resize: none;
+    }
+    &__lable {
+        margin-top: 10px;
+        display: block;
+        font-size: 16px;
+    }
+    &__btn-group {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn {
+        &_red {
+            margin-top: 10px;
+            padding: 10px 40px 10px 40px;
+            font-size: 16px;
+            border: 0;
+            background-color: #FEBEC2;
+        }
+        &_green {
+            margin-top: 10px;
+            padding: 10px 40px 10px 40px;
+            font-size: 16px;
+            border: 0;
+            background-color: #CEECC1;
+        }
+    } 
+}
+
